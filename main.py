@@ -81,3 +81,4 @@ for section in configs.sections():
 
 # 推送消息
 process.send_msg(s_title, s_content)
+process.send_mail(s_title, s_content)
